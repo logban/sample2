@@ -24,4 +24,5 @@ Quick start
  
 3. うごかす::
  
-    docker-compose run web python manage.py runserver
+    docker-compose up
+    
