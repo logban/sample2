@@ -1,0 +1,303 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+body{
+  width:100%;
+  box-sizing:border-box;
+}
+.header{
+    background-color:rgba(147,184,202,0.9);
+    height:90px;
+    width:100%;
+    color:#fff;
+    position:fixed;
+    z-index:10;
+    font-family:serif;
+}
+.header h3{
+    padding:10px 40px;
+    font-size:36px;
+    font-weight:normal;
+    float:left
+    
+}
+.header a{
+    padding:33px 20px;
+    float:left;
+    font-size:18px;
+    color:white;
+    letter-spacing: 2px;
+    transition: all 300ms 0s ease;
+}
+.header a:hover{
+  background: #ccc;
+
+}
+.keireki1{
+  padding-top:90px;
+  
+  color:dimgray;
+  
+  height:1200px;
+  text-align:center;
+}
+
+.keireki1 h3{
+  text-align:center;
+  letter-spacing: 3px;
+  font-weight:normal;
+  font-size:30px;
+  font-family: serif;
+  padding-top:40px;
+  color:#333333;
+
+}
+.keireki1 h2{
+  font-family:serif;
+  color:black;
+  padding-top:40px;
+  font-size:29px;
+  font-weight:normal;
+}
+.keireki1 p{
+  font-family:serif;
+  line-height:60px;
+  font-weight:normal;
+  font-size:20px;
+  color:black;
+  text-align:left;
+  padding-bottom:50px;
+}
+.nen{
+  width:50%;
+  margin:0 auto;
+  padding-left:190px;
+}
+.nen p{S
+}
+.map{
+  margin-top:300px;
+  padding-bottom:100px;
+
+}
+.map p{
+  text-align:center;
+  
+}
+.myphoto{
+  border-radius:8px;
+}
+.keirekibox p{
+  text-align:center;
+  padding-top:20px;
+}
+.tamesi{
+  height:1300px;
+  padding-top:400px;
+  
+}
+.tamesi h5{
+  text-align:center;
+  font-size:30px;
+  letter-spacing: 5px;
+  font-weight:normal;
+  color:#333333;
+  font-family:serif;
+}
+.tamesi p{
+  text-align:center;
+  font-size:20px;
+  letter-spacing: 5px;
+  font-weight:normal;
+  color:#333333;
+  font-family:serif;
+  padding-bottom:70px;
+}
+.jinmenusagi{
+  text-align:center;
+}
+.jinmenusagi2{
+  text-align:center;
+}
+
+.footer1 {
+  background-color:#93B8CA;
+  box-sizing:border-box;
+  height:90px;
+  width:100%;
+  color:#fff;
+  font-size:20px;
+  padding:20px 30px;
+  font-family:serif;
+}
+.footer2{
+  background-color:lightslategray;
+  box-sizing:border-box;
+  height:150px;
+  width:100%;
+  color:white;
+}
+.last{
+  height:500px;
+  text-align:center;
+  font-family:se
+}
+.last p{
+  font-family:serif;
+  font-size:20px;
+  text-align:center;
+}
+.shoukai{
+  width:00px;
+  height:200px;
+  float:left;
+  background-color:gray;
+}
+
+.btn{
+  padding:8px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+}
+
+.twitter {
+
+  background-color:#55acee;
+  
+  padding: 10px 40px;
+  /* カーソルの形をpointerにしてください */
+  cursor:pointer;
+  /* box-shadowをつけてください */
+  box-shadow:0 7px #256799;
+}
+.twitter:active{
+  box-shadow:none;
+  position:relative;
+  top:5px;
+  transition: all 00ms 0s ease;
+}
+
+.last{
+  font-family:serif;
+  line-height:30px;
+  height:1000px;
+  width:80%;
+  margin:0 auto;
+}
+.name{
+  padding:35px;
+  size:70px;
+}
+
+.mail{
+  padding:35px;
+
+}
+.comment{
+  padding:35px;
+  
+  height:198px;
+}
+input[type="text"],input[type="email"]{
+  border:solid 1px #aaa;
+  border-radius:5px;
+  size:30px;
+  width:300px;
+  line-height:20px;
+  
+}
+textarea{
+  border:solid 1px #aaa;
+  border-radius:5px;
+  size:30px;
+  width:300px;
+  
+}
+textarea{
+  resize:both;
+  height:98px;
+}
+
+input[type="submit"]{
+  background-color:lightgray;
+  border-radius:5px;
+  width:100px;
+  box-shadow:0 5px gray;
+  border:solid 1px white;
+  height:40px;
+
+
+}
+input:active{
+  box-shadow:none;
+  position:relative;
+  top:5px;
+  transition: all 00ms 0s ease;
+}
+
+
+
+
+
+.footer1 h2{
+  text-align:center;
+  letter-spacing:8px;
+
+}
+
+
+
+
+
+
+.footer2 h2{
+  text-align:center;
+  padding-top:50px;
+  letter-spacing:8px;
+}
+    
+table {
+    margin:10px;
+    font-size:14pt;
+
+}
+table tr th{
+    background-color:#009;
+    color:white;
+    padding:2px 10px;
+    border-size:2px;
+}
+
+table tr td{
+    background-color:#eee;
+    color:#666;
+    padding:2px 10px;
+    border-size:2px;
+}
+#formimg {
+  background-color:lightgray;
+  border-radius:5px;
+  width:100px;
+  box-shadow:0 5px gray;
+  border:solid 1px white;
+  height:40px;
+}
+#formimg:active{
+  box-shadow:none;
+  position:relative;
+  top:5px;
+  transition: all 00ms 0s ease;
+}

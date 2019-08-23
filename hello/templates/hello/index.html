@@ -1,0 +1,92 @@
+{% load static %}
+
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>{{titile}}</title>
+    <link rel="stylesheet" type ="text/css" href="{%static 'hello/css/style.css'%}"/>
+
+    
+</head>
+<body>
+ <div class="header">
+        <h3>profile</h3>
+        <a href="#link">経歴</a>
+        <a href="#syumi">趣味</a>
+        <a href="#otoiawase">お問い合わせ</a>
+    </div>
+    <div class="keireki1">
+        <a name="link">　</a>
+        <br><br>
+        <h3>坂本　陣太郎の経歴</h3>
+        <h2>経歴</h2>
+        <script type="text/javascript" src="{%static 'hello/js/samp.js'%}">
+            alert("hello");
+        </script>
+        <div class="nen">
+            
+            <p><br>2000年3月31日香川県丸亀市で生まれる<br>2013年　宮本塾という地元の塾に入り、人生が大きく変わる<br>2015年　丸亀高校に入学<br>2018年　東工大を受験するも不合格、浪人生となる<br>2019年　大阪大学経済学部に入学<br>2019年7月　未来電子インターンに参加する</p>
+        </div>
+        <a href="https://twitter.com/TwitterJP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn twitter" target="_blank">Twitter</a>
+       
+        <div class="map">
+                
+                <p >こちらが私の過ごした丸亀です。私の通った中学、高校、塾があります。</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2967.0014204081663!2d133.80001677248268!3d34.28383026917849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sja!2sjp!4v1563279875931!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="tamesi">
+        <a name="syumi">　</a>
+        <h5><br>
+        <br>
+        <br>趣味</h5>
+        <br>
+        <br>
+        <br>
+        <p>趣味は音楽を聴くことです。<br>高3まではロックを聴いていました。<br>今はラップばかり聴いています。
+            <br>僕の一番好きなラッパーを紹介します。<br>「Jinmenusagi」さんです。
+        </p>
+        <div class="jinmenusagi">
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/MWWurGsw0L8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        </div>
+        <div class="jinmenusagi2">
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/f50HfY9PN94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        </div>
+    </div>
+    <div class="last">
+        <br><br><br><br><br>
+        <a name="otoiawase"> </a>
+        <p>お問い合わせ</p>
+        <br><br><br>
+        <button id="formimg"><a href="{% url goto %}"><h3>　作成　</h3></a></button>
+       <form action="mailto:j.sakamoto.miraidenshi@gmail.com?subject=件名&amp;body=本文 method="post">
+        <div class="name">
+            <label for="name"></label>
+           
+        </div>
+        <div class="mail">
+            <label for="mail"></label>
+            
+        </div>
+        <div class="comment">
+            <label for="comment"></label>
+            
+        </div>
+        <div class="submit">
+            
+        </div>
+        </form>
+    
+    </div>
+</body>
+<footer>
+        <div class="footer1">
+            <h2>end</h2>
+        </div>
+        <div class="footer2">
+            <h2>This is footer.</h2>
+        </div>
+</footer>
+
+</html>
